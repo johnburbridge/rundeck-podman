@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include rundeck_podman"
+      include_role:
+        name: "rundeck_podman"
